@@ -1,6 +1,6 @@
 Package: oecdoda
 Title: Seamless Access to OECD Official Development Assistance (ODA) Data
-Version: 0.1.0.9001
+Version: 0.2.0.9000
 Authors@R: c(
     person("Christoph", "Scheuch", , "christoph@tidy-intelligence.com", 
             role = c("aut", "cre", "cph"),
@@ -20,8 +20,8 @@ Imports:
 Suggests:
     curl,
     testthat (>= 3.0.0)
-URL: https://github.com/tidy-intelligence/r-oecdoda, https://tidy-intelligence.github.io/r-oecdoda/
-BugReports: https://github.com/tidy-intelligence/r-oecdoda/issues
+URL: https://github.com/econdataverse/r-oecdoda, https://econdataverse.github.io/r-oecdoda/
+BugReports: https://github.com/econdataverse/r-oecdoda/issues
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

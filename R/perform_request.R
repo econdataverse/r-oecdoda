@@ -62,7 +62,7 @@ create_request <- function(
     httr2::req_url_path_append(filters_processed) |>
     httr2::req_url_query(!!!params) |>
     httr2::req_user_agent(
-      "oecdoda R package (https://github.com/tidy-intelligence/r-oecdoda)"
+      "oecdoda R package (https://github.com/econdataverse/r-oecdoda)"
     )
   req
 }

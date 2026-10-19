@@ -11,9 +11,9 @@ Access and Analyze Official Development Assistance (ODA) data using the OECD API
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/tidy-intelligence/r-oecdoda}
-  \item \url{https://tidy-intelligence.github.io/r-oecdoda/}
-  \item Report bugs at \url{https://github.com/tidy-intelligence/r-oecdoda/issues}
+  \item \url{https://github.com/econdataverse/r-oecdoda}
+  \item \url{https://econdataverse.github.io/r-oecdoda/}
+  \item Report bugs at \url{https://github.com/econdataverse/r-oecdoda/issues}
 }
 
 }
