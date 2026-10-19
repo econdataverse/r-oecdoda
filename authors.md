@@ -8,7 +8,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/econdataverse/r-oecdoda/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/econdataverse/r-oecdoda/blob/v0.2.0.9000/DESCRIPTION)
 
 Scheuch C (2026). *oecdoda: Seamless Access to OECD Official Development
 Assistance (ODA) Data*. R package version 0.2.0.9000,
