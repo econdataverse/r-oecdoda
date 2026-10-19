@@ -20,8 +20,8 @@ Imports:
 Suggests:
     curl,
     testthat (>= 3.0.0)
-URL: https://github.com/tidy-intelligence/r-oecdoda, https://tidy-intelligence.github.io/r-oecdoda/
-BugReports: https://github.com/tidy-intelligence/r-oecdoda/issues
+URL: https://github.com/econdataverse/r-oecdoda, https://econdataverse.github.io/r-oecdoda/
+BugReports: https://github.com/econdataverse/r-oecdoda/issues
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

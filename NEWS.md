@@ -1,5 +1,7 @@
 # oecdoda (development version)
 
+* The package repository moved to the econdataverse GitHub organization; package, documentation, and bug report URLs now point to <https://github.com/econdataverse/r-oecdoda>.
+
 * Fixed `oda_get_crs()` failing with "HTTP 404 Not Found" because OECD retired version 1.4 of the CRS dataflows (#4).
 * `oda_get_crs()`, `oda_get_dac1()`, `oda_get_dac2a()`, and `oda_get_multisystem()` gain a `version` argument to choose the OECD dataflow version. Defaults are pinned to the current versions (DAC1 1.8; CRS, DAC2A, and Multisystem 1.7). Use `version = NULL` to query the latest version.
 * Breaking: the DAC1 filters now follow the dimension order of DAC1 version 1.8, and the last DAC1 filter, previously misnamed `period`, is now `sector`.
