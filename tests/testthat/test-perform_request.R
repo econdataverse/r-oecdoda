@@ -60,7 +60,8 @@ test_that("create_request appends version to the dataflow", {
     version = "1.7"
   )
 
-  expect_true(grepl("DSD_CRS%40DF_CRS%2C1.7?", req$url, fixed = TRUE))
+  path <- utils::URLdecode(httr2::url_parse(req$url)$path)
+  expect_match(path, "DSD_CRS@DF_CRS,1\\.7/?$")
 })
 
 test_that("create_request omits version when it is NULL", {
@@ -69,7 +70,8 @@ test_that("create_request omits version when it is NULL", {
     version = NULL
   )
 
-  expect_true(grepl("DSD_CRS%40DF_CRS?", req$url, fixed = TRUE))
+  path <- utils::URLdecode(httr2::url_parse(req$url)$path)
+  expect_match(path, "DSD_CRS@DF_CRS/?$")
 })
 
 test_that("create_request rejects invalid versions", {
