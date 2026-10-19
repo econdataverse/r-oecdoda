@@ -8,16 +8,16 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/tidy-intelligence/r-oecdoda/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/econdataverse/r-oecdoda/blob/main/DESCRIPTION)
 
 Scheuch C (2026). *oecdoda: Seamless Access to OECD Official Development
-Assistance (ODA) Data*. R package version 0.1.0.9001,
-<https://github.com/tidy-intelligence/r-oecdoda>.
+Assistance (ODA) Data*. R package version 0.2.0.9000,
+<https://github.com/econdataverse/r-oecdoda>.
 
     @Manual{,
       title = {oecdoda: Seamless Access to OECD Official Development Assistance (ODA) Data},
       author = {Christoph Scheuch},
       year = {2026},
-      note = {R package version 0.1.0.9001},
-      url = {https://github.com/tidy-intelligence/r-oecdoda},
+      note = {R package version 0.2.0.9000},
+      url = {https://github.com/econdataverse/r-oecdoda},
     }

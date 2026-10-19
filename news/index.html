@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">oecdoda</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0.9001</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.0.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
 <li class="active nav-item"><a class="nav-link" href="../news/index.html">Changelog</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/tidy-intelligence/r-oecdoda/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/econdataverse/r-oecdoda/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul></div>
 
 
@@ -29,17 +29,30 @@
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Changelog</h1>
-      <small>Source: <a href="https://github.com/tidy-intelligence/r-oecdoda/blob/main/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
+      <small>Source: <a href="https://github.com/econdataverse/r-oecdoda/blob/main/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="development version" id="oecdoda-development-version">oecdoda (development version)<a class="anchor" aria-label="anchor" href="#oecdoda-development-version"></a></h2>
-<ul><li>Fixed <code><a href="../reference/oda_get_crs.html">oda_get_crs()</a></code> failing with “HTTP 404 Not Found” because OECD retired version 1.4 of the CRS dataflows (<a href="https://github.com/tidy-intelligence/r-oecdoda/issues/4" class="external-link">#4</a>).</li>
+</div>
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.2.0" id="oecdoda-020">oecdoda 0.2.0<a class="anchor" aria-label="anchor" href="#oecdoda-020"></a></h2>
+<div class="section level3">
+<h3 id="bug-fixes-0-2-0">Bug fixes<a class="anchor" aria-label="anchor" href="#bug-fixes-0-2-0"></a></h3>
+<ul><li>Fixed <code><a href="../reference/oda_get_crs.html">oda_get_crs()</a></code> failing with “HTTP 404 Not Found” because OECD retired version 1.4 of the CRS dataflows (<a href="https://github.com/econdataverse/r-oecdoda/issues/4" class="external-link">#4</a>).</li>
 <li>
 <code><a href="../reference/oda_get_crs.html">oda_get_crs()</a></code>, <code><a href="../reference/oda_get_dac1.html">oda_get_dac1()</a></code>, <code><a href="../reference/oda_get_dac2a.html">oda_get_dac2a()</a></code>, and <code><a href="../reference/oda_get_multisystem.html">oda_get_multisystem()</a></code> gain a <code>version</code> argument to choose the OECD dataflow version. Defaults are pinned to the current versions (DAC1 1.8; CRS, DAC2A, and Multisystem 1.7). Use <code>version = NULL</code> to query the latest version.</li>
-<li>Breaking: the DAC1 filters now follow the dimension order of DAC1 version 1.8, and the last DAC1 filter, previously misnamed <code>period</code>, is now <code>sector</code>.</li>
-<li>Breaking: the pre-processed <code><a href="../reference/oda_get_crs.html">oda_get_crs()</a></code> output column <code>channelt_name</code> is renamed to <code>channel_name</code>.</li>
 </ul></div>
+<div class="section level3">
+<h3 id="breaking-changes-0-2-0">Breaking changes<a class="anchor" aria-label="anchor" href="#breaking-changes-0-2-0"></a></h3>
+<ul><li>The DAC1 filters now follow the dimension order of DAC1 version 1.8, and the last DAC1 filter, previously misnamed <code>period</code>, is now <code>sector</code>.</li>
+<li>The pre-processed <code><a href="../reference/oda_get_crs.html">oda_get_crs()</a></code> output column <code>channelt_name</code> is renamed to <code>channel_name</code>.</li>
+</ul></div>
+<div class="section level3">
+<h3 id="improvements-0-2-0">Improvements<a class="anchor" aria-label="anchor" href="#improvements-0-2-0"></a></h3>
+<ul><li>The package repository moved to the econdataverse GitHub organization; package, documentation, and bug report URLs now point to <a href="https://github.com/econdataverse/r-oecdoda" class="external-link uri">https://github.com/econdataverse/r-oecdoda</a>.</li>
+</ul></div>
+</div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.1.0" id="oecdoda-010">oecdoda 0.1.0<a class="anchor" aria-label="anchor" href="#oecdoda-010"></a></h2><p class="text-muted">CRAN release: 2025-07-25</p>
 <ul><li>Initial CRAN submission with <code><a href="../reference/oda_get_dac1.html">oda_get_dac1()</a></code>, <code><a href="../reference/oda_get_dac2a.html">oda_get_dac2a()</a></code>, <code><a href="../reference/oda_get_crs.html">oda_get_crs()</a></code>, <code><a href="../reference/oda_get_multisystem.html">oda_get_multisystem()</a></code>, and <code><a href="../reference/oda_list_filters.html">oda_list_filters()</a></code>.</li>

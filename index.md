@@ -27,12 +27,12 @@ install.packages("oecdoda")
 ```
 
 You can install the development version of `oecdoda` from
-[GitHub](https://github.com/tidy-intelligence/r-oecdoda) with:
+[GitHub](https://github.com/econdataverse/r-oecdoda) with:
 
 ``` r
 
 # install.packages("pak")
-pak::pak("tidy-intelligence/r-oecdoda")
+pak::pak("econdataverse/r-oecdoda")
 ```
 
 ## Usage

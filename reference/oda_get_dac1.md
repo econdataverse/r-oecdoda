@@ -42,7 +42,7 @@ oda_get_dac1(
 
   Character. The version of the OECD dataflow to query, e.g. `"1.8"`.
   Defaults to `"1.8"`, the version the filters in
-  [`oda_list_filters()`](https://tidy-intelligence.github.io/r-oecdoda/reference/oda_list_filters.md)
+  [`oda_list_filters()`](https://econdataverse.github.io/r-oecdoda/reference/oda_list_filters.md)
   are ordered for. Other versions may order dimensions differently. If
   `NULL`, the latest version is used.
 

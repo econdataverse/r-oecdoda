@@ -11,11 +11,11 @@ and multilateral contributions (Multisystem).
 
 Useful links:
 
-- <https://github.com/tidy-intelligence/r-oecdoda>
+- <https://github.com/econdataverse/r-oecdoda>
 
-- <https://tidy-intelligence.github.io/r-oecdoda/>
+- <https://econdataverse.github.io/r-oecdoda/>
 
-- Report bugs at <https://github.com/tidy-intelligence/r-oecdoda/issues>
+- Report bugs at <https://github.com/econdataverse/r-oecdoda/issues>
 
 ## Author
 
